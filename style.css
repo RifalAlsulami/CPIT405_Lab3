@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px 0;
+}
+
+/* الصندوق */
+.image-preview {
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+
+    border-top: 30px solid skyblue;
+    border-right: 30px solid lightpink;
+    border-bottom: 30px solid lightgreen;
+    border-left: 30px solid #ffefd5;
+}
+
+/* Descendant selector المطلوب */
+.image-preview img {
+    width: 100%;
+    display: block;
+}
